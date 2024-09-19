@@ -10,7 +10,7 @@ function formatNumber(?float $number, string $locale = 'USA'): ?string
         return null;
     }
 
-    return Number::currency($numberrm);
+    return Number::currency($number);
 }
 
 function formatDate(Carbon $date, bool $time = true): string

@@ -42,15 +42,20 @@ const submit = () => {
             <div class="mt-4">
                 <InputLabel for="password" value="Password" />
 
-                <TextInput
-                    id="password"
-                    type="password"
-                    class="mt-1 block w-full"
-                    v-model="form.password"
-                    required
-                    autocomplete="new-password"
-                />
+                <div class="space-y-1">
+                    <TextInput
+                        id="password"
+                        type="password"
+                        class="mt-1 block w-full"
+                        v-model="form.password"
+                        required
+                        autocomplete="new-password"
+                    />
+                    <p class="text-xs text-gray-400">
+                        You password requires: at least 12 characters, 1 number and 1 special character
+                    </p>
 
+                </div>
                 <InputError class="mt-2" :message="form.errors.password" />
             </div>
 

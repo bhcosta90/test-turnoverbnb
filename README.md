@@ -9,5 +9,7 @@ Project to run the company's test where we can deposit an amount with a receipt,
 user admin: admin@gmail.com
 pass admin: password
 ```
+
 You can create a new user in this link
+
 [REGISTER](http://206.189.231.82/register)
